@@ -12,9 +12,12 @@ class App extends React.Component {
     return (
       <div>
         <NavBar />
-        <HomePage />
-        <About />
-        <Projects />
+        <div id="main">
+          <HomePage />
+          <About />
+          <Projects />
+          <Contact />
+        </div>
       </div>
     );
   }

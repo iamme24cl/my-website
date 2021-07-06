@@ -2,8 +2,6 @@ import React from 'react';
 
 const About = () => {
   return (
-    <div id="main">
-      {/* <!-- About Section --> */}
       <div className="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
         <h2 className="w3-text-light-grey">About Me</h2>
         <hr style={{ width:"200px" }} className="w3-opacity"/>
@@ -49,7 +47,6 @@ const About = () => {
         <p>No one is better than Chandra Lama.</p>
       {/* <!-- End About Section --> */}
     </div>  
-  </div>
   );
 }
 
