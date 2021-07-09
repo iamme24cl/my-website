@@ -14,7 +14,11 @@ const Contact = () => {
       </div><br />
       <p>Let's get in touch. Send me a message:</p>
 
-      <form action="" target="_blank">
+      <form 
+        action="mailto:iamme24cl@gmail.com" 
+        method="POST" 
+        enctype="multipart/form-data"
+        name="email-form" target="_blank">
         <p><input className="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name" /></p>
         <p><input className="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email" /></p>
         <p><input className="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject" /></p>
