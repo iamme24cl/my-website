@@ -9,16 +9,13 @@ const Projects = () => {
       {/* Grid for projects */}
       <div className="w3-row-padding" style={{margin: "0 -16px"}}>
         <div className="w3-half">
-          <img src="" style={{width: "100%"}} />
-          <img src="" style={{width: "100%"}} />
-          <img src="" style={{width: "100%"}} />
+          <img src="https://picsum.photos/id/0/150/150" style={{width: "100%"}} />
+          <img src="https://picsum.photos/id/1033/150/150" style={{width: "100%"}} />
         </div>
 
         <div className="w3-half">
-          <img src="" style={{width: "100%"}} />
-          <img src="" style={{width: "100%"}} />
-          <img src="" style={{width: "100%"}} />
-          <img src="" style={{width: "100%"}} />
+          <img src="https://picsum.photos/id/158/150/150" style={{width: "100%"}} />
+          <img src="https://picsum.photos/id/1048/150/150" style={{width: "100%"}} />
         </div>
       {/* End photo grid  */}
       </div>
