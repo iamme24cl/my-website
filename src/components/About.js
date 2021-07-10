@@ -43,7 +43,7 @@ const About = () => {
         <p>Chandra saved us from a web disaster.</p><br/>
         
         <img src="https://randomuser.me/api/portraits/women/19.jpg" alt="Avatar" className="w3-left w3-circle w3-margin-right" style={{width:"80px"}}/>
-        <p><span className="w3-large w3-margin-right"><small>Rebecca Flex.</small></span> CEO at Company.</p>
+        <p><span className="w3-large w3-margin-right">Rebecca Flex.</span><small>CEO at Company.</small></p>
         <p>No one is better than Chandra Lama.</p>
       {/* <!-- End About Section --> */}
     </div>  
