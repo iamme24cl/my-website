@@ -11,10 +11,21 @@ const Contact = () => {
         <p><i className="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Palo Alto, California, US</p>
         <p><i className="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: 206-422-8846</p>
         <p><i className="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: chandralama0111@gmail.com</p>
+        <a href="https://www.linkedin.com/in/chandralama/" target="_blank">
+          <i 
+            className="fa fa-linkedin-square w3-text-white w3-xxlarge w3-margin-right" 
+            style={{marginLeft: "5px"}}>
+          </i>
+        </a>
+          <a href="https://github.com/iamme24cl/" target="_blank"><i className="fa fa-github-square w3-text-white w3-xxlarge"></i></a>
       </div><br />
       <p>Let's get in touch. Send me a message:</p>
 
-      <form action="" target="_blank">
+      <form 
+        action="mailto:iamme24cl@gmail.com" 
+        method="POST" 
+        enctype="multipart/form-data"
+        name="email-form" target="_blank">
         <p><input className="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name" /></p>
         <p><input className="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email" /></p>
         <p><input className="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject" /></p>
