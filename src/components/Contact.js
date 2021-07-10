@@ -8,7 +8,7 @@ const Contact = () => {
       <hr style={{width: "200px"}} className="w3-opacity" />
 
       <div className="w3-section">
-        <p><i className="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Palo Alto, California, US</p>
+        <p><a href="https://goo.gl/maps/34WYWkCg2B83qCPc8" target="_blank"><i className="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i></a> Palo Alto, California, US</p>
         <p><i className="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: 206-422-8846</p>
         <p><i className="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: chandralama0111@gmail.com</p>
         <a href="https://www.linkedin.com/in/chandralama/" target="_blank">

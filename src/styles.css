@@ -18,6 +18,7 @@ body {
   width: 120px;background: #222;
 }
 
+
 /* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
 #main {
   margin-left: 120px;
