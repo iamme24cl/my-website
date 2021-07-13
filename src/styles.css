@@ -24,6 +24,21 @@ body {
   margin-left: 120px;
 }
 
+img.nav-bar-img {
+  width: 100%;
+  opacity: 0.5;
+}
+
+img.w3-image.my-image:hover {
+  transform: scaleX(-1);
+}
+
+.w3-image.my-image {
+  border-radius: 5px;
+}
+
+/*************** Media Queries *************/
+
 /* Remove margins from "page content" on small screens */
 @media only screen and (max-width: 600px) {
   #main {
@@ -36,10 +51,6 @@ body {
   #main {
     padding: 10px;
   }
-}
-
-.w3-image.my-image {
-  border-radius: 5px;
 }
    
 /* Reduce testimonials image size for smaller screens */

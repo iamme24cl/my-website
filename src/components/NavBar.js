@@ -8,7 +8,7 @@ const NavBar = () => {
       {/* <!-- Icon Bar (Sidebar - hidden on small screens) --> */}
       <nav className="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
         {/* <!-- Avatar image in top left corner --> */}
-        <img src="Photo_1619833647159_Processed.png" style={{width: "100%"}} />
+        <img src="Photo_1619833647159_Processed.png" className="nav-bar-img" />
         <a href="#" className="w3-bar-item w3-button w3-padding-large w3-black">
           <i className="fa fa-home w3-xxlarge"></i>
           <p>HOME</p>
