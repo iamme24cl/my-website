@@ -3,7 +3,7 @@ import React from 'react';
 const Projects = () => {
   return (
     <div className="w3-padding-64 w3-content" id="projects">
-      <h2 className="w3-text-light-grey w3-center">My Projects</h2>
+      <h2 className="w3-text-light-grey w3-center">A Few Things I Built</h2>
       <hr style={{width: "100%"}} className="w3-opacity"/>
 
       {/* Grid for projects */}
