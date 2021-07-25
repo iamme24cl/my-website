@@ -40,8 +40,7 @@ const Projects = () => {
             <div className="w3-container">
               <p className="w3-center">This is an app that lets you take notes of your 
               favorite wines. Take notes of wines in a pattern that sommeliers 
-              or individuals in similar fields generally use. (producer/winery name, the grape varietal(s) used to make the wine, 
-              the appelation(region), the vintage, price, tasting notes)</p>
+              or individuals in similar fields generally use.</p>
             </div>
           </div>
           <hr style={{width: "100%"}} className="w3-opacity"/>
