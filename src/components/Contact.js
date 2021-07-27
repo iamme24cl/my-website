@@ -1,4 +1,3 @@
-import { div } from 'prelude-ls';
 import React from 'react';
 
 const Contact = () => {
@@ -28,8 +27,7 @@ const Contact = () => {
         name="email-form" target="_blank">
         <p><input className="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name" /></p>
         <p><input className="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email" /></p>
-        <p><input className="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject" /></p>
-        <p><input className="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message" /></p>
+        <p><textarea className="w3-input w3-padding-16" placeholder="Message" required name="Message" ></textarea></p>
         <p>
           <button className="w3-button w3-light-grey w3-padding-large" type="submit">
             <i className="fa fa-paper-plane"></i> SEND MESSAGE
