@@ -2,7 +2,7 @@ import React from 'react';
 
 const HomePage = () => {
   return (
-    <div className="w3-padding-large">
+    <div id="home" className="w3-padding-large">
       {/* <!-- Header/Home --> */}
       <header className="w3-container w3-padding-32 w3-center w3-black" id="home">
         <h1 className="w3-jumbo"><span>Hi!👋 I'm</span> Chandra Lama.<span>&#128512;</span></h1>

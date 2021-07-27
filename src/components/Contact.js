@@ -7,16 +7,16 @@ const Contact = () => {
       <hr style={{width: "200px"}} className="w3-opacity" />
 
       <div className="w3-section">
-        <p><a href="https://goo.gl/maps/34WYWkCg2B83qCPc8" target="_blank"><i className="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i></a> Palo Alto, California, US</p>
+        <p><a href="https://goo.gl/maps/34WYWkCg2B83qCPc8" target="_blank" rel="noreferrer"><i className="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i></a> Palo Alto, California, US</p>
         <p><i className="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: 206-422-8846</p>
-        <p><i className="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: chandralama0111@gmail.com</p>
-        <a href="https://www.linkedin.com/in/chandralama/" target="_blank">
+        <p><i className="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: iamme24cl@gmail.com</p>
+        <a href="https://www.linkedin.com/in/chandralama/" target="_blank" rel="noreferrer">
           <i 
             className="fa fa-linkedin-square w3-text-white w3-xxlarge w3-margin-right" 
             style={{marginLeft: "5px"}}>
           </i>
         </a>
-          <a href="https://github.com/iamme24cl/" target="_blank"><i className="fa fa-github-square w3-text-white w3-xxlarge"></i></a>
+          <a href="https://github.com/iamme24cl/" target="_blank" rel="noreferrer"><i className="fa fa-github-square w3-text-white w3-xxlarge"></i></a>
       </div><br />
       <p>Let's get in touch. Send me a message:</p>
 
