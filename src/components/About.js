@@ -31,7 +31,7 @@ const About = () => {
         
         <a href="https://docs.google.com/document/d/1Za6mns3XJWw1k_enNPAr3akxzVK94boxxYrYIRxD9xw/edit?usp=sharing" target="_blank" rel="noreferrer">
           <button className="w3-button w3-light-grey w3-padding-large w3-section">
-            <i class="fa fa-file-text" style={{fontSize: "24px"}}></i> My Resume
+            <i className="fa fa-file-text" style={{fontSize: "24px"}}></i> My Resume
           </button>
         </a>
         

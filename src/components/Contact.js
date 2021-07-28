@@ -1,6 +1,31 @@
-import React from 'react';
+import React, { useState } from 'react';
+import emailjs, { init } from 'emailjs-com';
+init("user_9MnljMaWugBtmj5FgDHzG");
 
 const Contact = () => {
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    console.log("work");
+    const serviceID = 'service_6baok88';
+    const templateID = 'contact_form';
+    const userID = 'user_9MnljMaWugBtmj5FgDHzG';
+ 
+    emailjs.sendForm(serviceID, templateID, e.target, userID)
+     .then((result) => {
+       alert("Message Sent! Chandra will get back to you..")
+     }, (err) => {
+       alert(JSON.stringify(err));
+     });
+     
+    setName("");
+    setEmail("");
+    setMessage("");
+  }
+  
   return (
     <div className="w3-padding-64 w3-content w3-text-grey" id="contact">
       <h2 className="w3-text-light-grey">Contact Me</h2>
@@ -20,16 +45,12 @@ const Contact = () => {
       </div><br />
       <p>Let's get in touch. Send me a message:</p>
 
-      <form 
-        action="mailto:iamme24cl@gmail.com" 
-        method="POST" 
-        enctype="multipart/form-data"
-        name="email-form" target="_blank">
-        <p><input className="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name" /></p>
-        <p><input className="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email" /></p>
-        <p><textarea className="w3-input w3-padding-16" placeholder="Message" required name="Message" ></textarea></p>
+      <form id="contact-form" onSubmit={handleSubmit}>
+        <p><input value={name} onChange={e => setName(e.target.value)} className="w3-input w3-padding-16" type="text" placeholder="Name" required name="from_name" /></p>
+        <p><input value={email} onChange={e => setEmail(e.target.value)} className="w3-input w3-padding-16" type="text" placeholder="Email" required name="from_email" /></p>
+        <p><textarea value={message} onChange={e => setMessage(e.target.value)} className="w3-input w3-padding-16" placeholder="Message" required name="message" ></textarea></p>
         <p>
-          <button className="w3-button w3-light-grey w3-padding-large" type="submit">
+          <button type="submit" className="w3-button w3-light-grey w3-padding-large">
             <i className="fa fa-paper-plane"></i> SEND MESSAGE
           </button>
         </p>
