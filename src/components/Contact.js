@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
 import emailjs, { init } from 'emailjs-com';
-init("user_9MnljMaWugBtmj5FgDHzG");
+import CONSTANTS from '../utils/constants'
+
+const { TOKENS: { SID, TID, UID } } = CONSTANTS;
+init(UID);
 
 const Contact = () => {
   const [name, setName] = useState("");
@@ -9,10 +12,9 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log("work");
-    const serviceID = 'service_6baok88';
-    const templateID = 'contact_form';
-    const userID = 'user_9MnljMaWugBtmj5FgDHzG';
+    const serviceID = SID;
+    const templateID = TID;
+    const userID = UID;
  
     emailjs.sendForm(serviceID, templateID, e.target, userID)
      .then((result) => {
