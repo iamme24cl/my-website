@@ -1,0 +1,16 @@
+.w3-row-padding img {
+  margin-bottom: 12px;
+}
+
+.project-image-container {
+  height: 450px;
+}
+
+img.project-image:hover {
+  -webkit-transition: all .3s ease-out;
+  -moz-transition: all .3s ease-out;
+  -o-transition: all .3s ease-out;
+  transition: all .3s ease-out;
+  transform: scale(1.075);
+}
+

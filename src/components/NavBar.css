@@ -1,0 +1,9 @@
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {
+  width: 120px;background: #222;
+}
+
+img.nav-bar-img {
+  width: 100%;
+  opacity: 0.5;
+}

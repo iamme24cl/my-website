@@ -9,270 +9,11 @@ body {
   color: #F0FFFF;
 }
 
-.w3-row-padding img {
-  margin-bottom: 12px;
-}
-
-/* Set the width of the sidebar to 120px */
-.w3-sidebar {
-  width: 120px;background: #222;
-}
-
-
 /* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
 #main {
   margin-left: 120px;
 }
 
-img.nav-bar-img {
-  width: 100%;
-  opacity: 0.5;
-}
-
-img.w3-image.my-image:hover {
-  transform: scaleX(-1);
-}
-
-.w3-image.my-image {
-  border-radius: 5px;
-}
-
-.project-image-container {
-  height: 450px;
-}
-
-img.project-image:hover {
-  -webkit-transition: all .3s ease-out;
-  -moz-transition: all .3s ease-out;
-  -o-transition: all .3s ease-out;
-  transition: all .3s ease-out;
-
-    transform: scale(1.075);
-    
-}
-
-/* wave hands emoji */
-.wave {
-  animation-name: wave-animation;  /* Refers to the name of your @keyframes element below */
-  animation-duration: 2.5s;        /* Change to speed up or slow down */
-  animation-iteration-count: infinite;  /* Never stop waving :) */
-  transform-origin: 70% 70%;       /* Pivot around the bottom-left palm */
-  display: inline-block;
-}
-
-@keyframes wave-animation {
-    0% { transform: rotate( 0.0deg) }
-   10% { transform: rotate(14.0deg) }  /* The following five values can be played with to make the waving more or less extreme */
-   20% { transform: rotate(-8.0deg) }
-   30% { transform: rotate(14.0deg) }
-   40% { transform: rotate(-4.0deg) }
-   50% { transform: rotate(10.0deg) }
-   60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
-  100% { transform: rotate( 0.0deg) }
-}
-
-/* Hide small about section on larger screens */
-.about-section-small {
-  display: none;
-}
-
-/* About Section Typewriter Effect */
-.css-typing p {
-  white-space: nowrap;
-  overflow: hidden;
-  font-weight: bold;
-  width: 100%;
-}
-.css-typing p:nth-child(1) {
-  -webkit-animation: type 5s steps(40, end);
-  animation: type 5s steps(40, end);
-  -webkit-animation-fill-mode: forwards;
-  animation-fill-mode: forwards;
-}
-
-.css-typing p:nth-child(2) {
-  opacity: 0;
-  -webkit-animation: type2 5s steps(40, end);
-  animation: type2 5s steps(40, end);
-  -webkit-animation-delay: 4s;
-  animation-delay: 4s;
-  -webkit-animation-fill-mode: forwards;
-  animation-fill-mode: forwards;
-}
-
-.css-typing p:nth-child(3) {
-  opacity: 0;
-  -webkit-animation: type3 5s steps(40, end);
-  animation: type3 5s steps(40, end);
-  -webkit-animation-delay: 9s;
-  animation-delay: 9s;
-  -webkit-animation-fill-mode: forwards;
-  animation-fill-mode: forwards;
-}
-
-.css-typing p:nth-child(4) {
-  opacity: 0;
-  -webkit-animation: type4 5s steps(40, end);
-  animation: type3 5s steps(40, end);
-  -webkit-animation-delay: 13s;
-  animation-delay: 14s;
-  -webkit-animation-fill-mode: forwards;
-  animation-fill-mode: forwards;
-}
-
-.css-typing p:nth-child(5) {
-  width: 100%;
-  opacity: 0;
-  -webkit-animation: type5 5s steps(40, end);
-  animation: type3 5s steps(40, end);
-  -webkit-animation-delay: 18s;
-  animation-delay: 18s;
-  -webkit-animation-fill-mode: forwards;
-  animation-fill-mode: forwards;
-}
-
-.css-typing p:nth-child(6) {
-  opacity: 0;
-  -webkit-animation: type6 5s steps(40, end);
-  animation: type3 5s steps(40, end);
-  -webkit-animation-delay: 23s;
-  animation-delay: 23s;
-  -webkit-animation-fill-mode: forwards;
-  animation-fill-mode: forwards;
-}
-
-@keyframes type {
-  0% {
-    width: 0;
-  }
-}
-
-@-webkit-keyframes type {
-  0% {
-    width: 0;
-  }
-}
-
-@keyframes type2 {
-  0% {
-    width: 0;
-  }
-  1% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-@-webkit-keyframes type2 {
-  0% {
-    width: 0;
-  }
-  1% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-@keyframes type3 {
-  0% {
-    width: 0;
-  }
-  1% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-@-webkit-keyframes type3 {
-  0% {
-    width: 0;
-  }
-  1% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-@keyframes type4 {
-  0% {
-    width: 0;
-  }
-  1% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-@-webkit-keyframes type4 {
-  0% {
-    width: 0;
-  }
-  1% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-@keyframes type5 {
-  0% {
-    width: 0;
-  }
-  1% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-@-webkit-keyframes type5 {
-  0% {
-    width: 0;
-  }
-  1% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-
-@keyframes type6 {
-  0% {
-    width: 0;
-  }
-  1% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-@-webkit-keyframes type6 {
-  0% {
-    width: 0;
-  }
-  1% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 1;
-  }
-}
 
 
 /*************** Media Queries *************/
@@ -284,9 +25,9 @@ img.project-image:hover {
   }
 
   /* Reduce testimonials image size for smaller screens */
-  img.w3-left.w3-circle.w3-margin-right {
+  /* img.w3-left.w3-circle.w3-margin-right {
     width: 60px;
-  }
+  } */
 
   .project-image-container {
     height: auto;
@@ -307,6 +48,7 @@ img.project-image:hover {
   /* display small about section in larger screens */
   .about-section-small {
     display: block;
+    font-weight: bold;
   }
 }
    
