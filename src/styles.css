@@ -71,13 +71,225 @@ img.project-image:hover {
   100% { transform: rotate( 0.0deg) }
 }
 
+/* Hide small about section on larger screens */
+.about-section-small {
+  display: none;
+}
+
+/* About Section Typewriter Effect */
+.css-typing p {
+  white-space: nowrap;
+  overflow: hidden;
+  font-weight: bold;
+  width: 100%;
+}
+.css-typing p:nth-child(1) {
+  -webkit-animation: type 5s steps(40, end);
+  animation: type 5s steps(40, end);
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.css-typing p:nth-child(2) {
+  opacity: 0;
+  -webkit-animation: type2 5s steps(40, end);
+  animation: type2 5s steps(40, end);
+  -webkit-animation-delay: 4s;
+  animation-delay: 4s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.css-typing p:nth-child(3) {
+  opacity: 0;
+  -webkit-animation: type3 5s steps(40, end);
+  animation: type3 5s steps(40, end);
+  -webkit-animation-delay: 9s;
+  animation-delay: 9s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.css-typing p:nth-child(4) {
+  opacity: 0;
+  -webkit-animation: type4 5s steps(40, end);
+  animation: type3 5s steps(40, end);
+  -webkit-animation-delay: 13s;
+  animation-delay: 14s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.css-typing p:nth-child(5) {
+  width: 100%;
+  opacity: 0;
+  -webkit-animation: type5 5s steps(40, end);
+  animation: type3 5s steps(40, end);
+  -webkit-animation-delay: 18s;
+  animation-delay: 18s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.css-typing p:nth-child(6) {
+  opacity: 0;
+  -webkit-animation: type6 5s steps(40, end);
+  animation: type3 5s steps(40, end);
+  -webkit-animation-delay: 23s;
+  animation-delay: 23s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+@keyframes type {
+  0% {
+    width: 0;
+  }
+}
+
+@-webkit-keyframes type {
+  0% {
+    width: 0;
+  }
+}
+
+@keyframes type2 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes type2 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes type3 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes type3 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes type4 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes type4 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes type5 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes type5 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+@keyframes type6 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes type6 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 
 /*************** Media Queries *************/
 
-/* Remove margins from "page content" on small screens */
 @media only screen and (max-width: 600px) {
+  /* Remove margins from "page content" on small screens */
   #main {
     margin-left: 0;
+  }
+
+  /* Reduce testimonials image size for smaller screens */
+  img.w3-left.w3-circle.w3-margin-right {
+    width: 60px;
+  }
+
+  .project-image-container {
+    height: auto;
   }
 }
 
@@ -86,14 +298,15 @@ img.project-image:hover {
   #main {
     padding: 10px;
   }
+
+  /* Hide css typing section on small screens */
+  .css-typing {
+    display: none;
+  }
+
+  /* display small about section in larger screens */
+  .about-section-small {
+    display: block;
+  }
 }
    
-/* Reduce testimonials image size for smaller screens */
-@media only screen and (max-width: 600px) {
-  img.w3-left.w3-circle.w3-margin-right {
-    width: 60px;
-  }
-  .project-image-container {
-    height: auto;
-  }
-}

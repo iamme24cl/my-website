@@ -5,16 +5,44 @@ const About = () => {
       <div className="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
         <h2 className="w3-text-light-grey">About Me</h2>
         <hr style={{ width:"200px" }} className="w3-opacity"/>
-        <p>
-          Full Stack Software Developer brought up on JavaScript and Ruby on Rails. Background in Food and Wine Industry with strong interpersonal skills and rigorous positivity.
-        </p>
-        <p>
-          Excellent at analyzing and assessing customer needs and delivering products and services clients love. Passionate problem solver. 
-          A big believer of positive company culture, inclusive kindness and innovative thinking.
-        </p>
-        <p>
-          I take great pleasure in learning new technologies, debugging errors, exploring new ideas & solutions, and sincerely dedicating myself to bringing the idea to life.
-        </p>
+        <section className="css-typing">
+          <p>Full Stack Software Developer brought up on JavaScript and Ruby on Rails.</p> 
+
+          <p>
+            Background in Food and Wine Industry with strong interpersonal skills and rigorous positivity.
+          </p>
+
+          <p>
+            Excellent at analyzing and assessing customer needs and delivering products and services clients love.
+          </p> 
+
+          <p>
+            Passionate problem solver. A big believer of positive company culture, inclusive kindness and
+          </p> 
+          
+          <p>
+            innovative thinking.I take great pleasure in learning new technologies, debugging errors,
+          </p>
+          
+          <p>
+            exploring new ideas & solutions, and sincerely dedicating myself to bringing the idea to life.
+          </p>
+        </section>
+
+        {/* Display only in screens smaller than 600 px */}
+        <section className="about-section-small">
+          <p>
+            Full Stack Software Developer brought up on JavaScript and Ruby on Rails. Background in Food and Wine Industry with strong interpersonal skills and rigorous positivity.
+          </p>
+          <p>
+            Excellent at analyzing and assessing customer needs and delivering products and services clients love. Passionate problem solver. 
+            A big believer of positive company culture, inclusive kindness and innovative thinking.
+          </p>
+          <p>
+            I take great pleasure in learning new technologies, debugging errors, exploring new ideas & solutions, and sincerely dedicating myself to bringing the idea to life.
+          </p>
+        </section>
+
         <h3 className="w3-padding-16 w3-text-light-grey">My Skills</h3>
         <p className="w3-wide">Frontend Programming</p>
         <div className="w3-white">
