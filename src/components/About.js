@@ -6,7 +6,7 @@ const About = () => {
       <div className="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
         <h2 className="w3-text-light-grey">About Me</h2>
         <hr style={{ width:"200px" }} className="w3-opacity"/>
-        <section className="css-typing">
+        <section className="css-typing w3-text-light-grey">
           <p>Full Stack Software Developer brought up on JavaScript and Ruby on Rails.</p> 
 
           <p>
@@ -31,7 +31,7 @@ const About = () => {
         </section>
 
         {/* Display only in screens smaller than 600 px */}
-        <section className="about-section-small">
+        <section className="about-section-small w3-text-light-grey">
           <p>
             Full Stack Software Developer brought up on JavaScript and Ruby on Rails. Background in Food and Wine Industry with strong interpersonal skills and rigorous positivity.
           </p>
