@@ -4,7 +4,7 @@ import HomePage from './components/HomePage';
 import About from './components/About';
 import Projects from './components/Projects'
 import Contact from './components/Contact'
-import './styles.css'
+import './App.css'
 
 class App extends React.Component {
   constructor(props) {

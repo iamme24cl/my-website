@@ -57,15 +57,7 @@ const About = () => {
         <div className="w3-white">
           <div className="w3-dark-grey" style={{height:"28px", width:"95%"}}></div>
         </div><br/>
-        
-        <a href="https://docs.google.com/document/d/1Za6mns3XJWw1k_enNPAr3akxzVK94boxxYrYIRxD9xw/edit?usp=sharing" target="_blank" rel="noreferrer">
-          <button className="w3-button w3-light-grey w3-padding-large w3-section">
-            <i className="fa fa-file-text" style={{fontSize: "24px"}}></i> My Resume
-          </button>
-        </a>
-        
-
-        
+       
         {/* <!-- Testimonials --> */}
         {/* <h3 className="w3-padding-24 w3-text-light-grey">My Reputation</h3>  
 
