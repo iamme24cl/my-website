@@ -205,3 +205,27 @@
   }
 }
 
+#badges i {
+  margin: 15px;
+}
+
+@media screen and (max-width: 600px) {
+  #badges i {
+    margin-left: 0;
+  }
+}
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    #badges i {
+      margin: 0 8px 0 0;
+    }
+    #badges i:last-of-type {
+      margin-left: 30px;
+    }
+
+}
+
