@@ -25,7 +25,7 @@ img.w3-image.my-image:hover {
 
 .w3-image.my-image {
   margin-top: 15px;
-  border-radius: 25px;
+  border-radius: 50%;
   transform: translatey(0px);
 	animation: float 3s ease-in-out infinite;
 }
