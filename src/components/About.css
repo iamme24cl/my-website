@@ -15,6 +15,8 @@
 .css-typing p:nth-child(1) {
   -webkit-animation: type 5s steps(40, end);
   animation: type 5s steps(40, end);
+  -webkit-animation-delay: 3s;
+  animation-delay: 3s;
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
 }
@@ -23,8 +25,8 @@
   opacity: 0;
   -webkit-animation: type2 5s steps(40, end);
   animation: type2 5s steps(40, end);
-  -webkit-animation-delay: 4s;
-  animation-delay: 4s;
+  -webkit-animation-delay: 7s;
+  animation-delay: 7s;
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
 }
@@ -33,8 +35,8 @@
   opacity: 0;
   -webkit-animation: type3 5s steps(40, end);
   animation: type3 5s steps(40, end);
-  -webkit-animation-delay: 9s;
-  animation-delay: 9s;
+  -webkit-animation-delay: 12s;
+  animation-delay: 12s;
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
 }
@@ -43,8 +45,8 @@
   opacity: 0;
   -webkit-animation: type4 5s steps(40, end);
   animation: type3 5s steps(40, end);
-  -webkit-animation-delay: 13s;
-  animation-delay: 14s;
+  -webkit-animation-delay: 17s;
+  animation-delay: 17s;
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
 }
@@ -54,8 +56,8 @@
   opacity: 0;
   -webkit-animation: type5 5s steps(40, end);
   animation: type3 5s steps(40, end);
-  -webkit-animation-delay: 18s;
-  animation-delay: 18s;
+  -webkit-animation-delay: 21s;
+  animation-delay: 21s;
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
 }
@@ -64,8 +66,8 @@
   opacity: 0;
   -webkit-animation: type6 5s steps(40, end);
   animation: type3 5s steps(40, end);
-  -webkit-animation-delay: 23s;
-  animation-delay: 23s;
+  -webkit-animation-delay: 26s;
+  animation-delay: 26s;
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
 }
@@ -201,5 +203,29 @@
   100% {
     opacity: 1;
   }
+}
+
+#badges i {
+  margin: 15px;
+}
+
+@media screen and (max-width: 600px) {
+  #badges i {
+    margin-left: 0;
+  }
+}
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    #badges i {
+      margin: 0 8px 0 0;
+    }
+    #badges i:last-of-type {
+      margin-left: 30px;
+    }
+
 }
 

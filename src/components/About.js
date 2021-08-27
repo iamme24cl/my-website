@@ -3,10 +3,10 @@ import "./About.css";
 
 const About = () => {
   return (
-      <div className="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+      <div className="w3-content w3-justify w3-text-grey w3-padding-16" id="about">
         <h2 className="w3-text-light-grey">About Me</h2>
         <hr style={{ width:"200px" }} className="w3-opacity"/>
-        <section className="css-typing">
+        <section className="css-typing w3-text-light-grey">
           <p>Full Stack Software Developer brought up on JavaScript and Ruby on Rails.</p> 
 
           <p>
@@ -31,7 +31,7 @@ const About = () => {
         </section>
 
         {/* Display only in screens smaller than 600 px */}
-        <section className="about-section-small">
+        <section className="about-section-small w3-text-light-grey">
           <p>
             Full Stack Software Developer brought up on JavaScript and Ruby on Rails. Background in Food and Wine Industry with strong interpersonal skills and rigorous positivity.
           </p>
@@ -51,21 +51,44 @@ const About = () => {
         </div>
         <p className="w3-wide">Backend Programming</p>
         <div className="w3-white">
-          <div className="w3-dark-grey" style={{height:"28px", width:"85%"}}></div>
+          <div className="w3-dark-grey" style={{height:"28px", width:"93%"}}></div>
         </div>
         <p className="w3-wide">Problem Soving</p>
         <div className="w3-white">
           <div className="w3-dark-grey" style={{height:"28px", width:"95%"}}></div>
         </div><br/>
-        
-        <a href="https://docs.google.com/document/d/1Za6mns3XJWw1k_enNPAr3akxzVK94boxxYrYIRxD9xw/edit?usp=sharing" target="_blank" rel="noreferrer">
-          <button className="w3-button w3-light-grey w3-padding-large w3-section">
-            <i className="fa fa-file-text" style={{fontSize: "24px"}}></i> My Resume
-          </button>
-        </a>
+        {/* skill incon badges */}
+        <div id="badges" style={{fontSize: "60px"}} class="w3-container w3-black">
+          <div  className="w3-row">
+            <div className="w3-half w3-container">
+              <i class="devicon-ruby-plain-wordmark colored"></i>
+              <i class="devicon-rails-plain-wordmark colored"></i>
+              <i class="devicon-javascript-plain colored"></i>
+              <i class="devicon-html5-plain-wordmark colored"></i>
+            </div>
+            <div className="w3-half w3-container">
+              <i class="devicon-postgresql-plain-wordmark"></i>
+              <i class="devicon-graphql-plain-wordmark colored"></i>
+              <i class="devicon-css3-plain-wordmark colored"></i>
+              <i class="devicon-react-original-wordmark colored"></i>
+            </div>
+          </div>
+          <div  className="w3-row">
+            <div className="w3-half w3-container">
+              <i class="devicon-redux-original colored"></i>
+              <i class="devicon-git-plain-wordmark colored"></i>
+              <i class="devicon-github-original-wordmark"></i>
+              <i class="devicon-nodejs-plain-wordmark"></i>
+            </div>
+            <div className="w3-half w3-container">
+              <i class="devicon-jest-plain colored"></i>
+              <i class="devicon-materialui-plain colored"></i>
+            </div>
+          </div>
+        </div>
         
 
-        
+       
         {/* <!-- Testimonials --> */}
         {/* <h3 className="w3-padding-24 w3-text-light-grey">My Reputation</h3>  
 

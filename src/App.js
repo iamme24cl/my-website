@@ -4,9 +4,29 @@ import HomePage from './components/HomePage';
 import About from './components/About';
 import Projects from './components/Projects'
 import Contact from './components/Contact'
-import './styles.css'
+import './App.css'
 
 class App extends React.Component {
+  constructor(props) {
+    super(props)
+    this.state = {
+      timer: null
+    }
+  }
+  
+  componentDidMount() {
+    this.state.timer = setTimeout(() => {
+      window.scrollTo({
+        top: 500,
+        left: 0,
+        behavior: 'smooth'
+      });
+    }, 3000)
+  }
+
+  componentWillUnmount() {
+    clearInterval(this.state.timer);
+  }
 
   render () {
     return (
