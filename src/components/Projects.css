@@ -2,9 +2,6 @@
   margin-bottom: 12px;
 }
 
-.project-image-container {
-  height: 450px;
-}
 
 img.project-image:hover {
   -webkit-transition: all .3s ease-out;
