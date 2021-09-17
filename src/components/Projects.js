@@ -25,23 +25,23 @@ const Projects = () => {
             from api built with Ruby on Rails.</p>
           </div>
         </div>
+      </div>
+        
       <hr style={{width: "100%"}} className="w3-opacity"/>
 
       <div className="w3-row-padding" style={{margin: "0 -16px"}}>
         <div className="w3-half w3-card-4">
-            <a href="https://www.youtube.com/watch?v=i3Q8Ns4z11o" target="_blank" rel="noreferrer"><img className="project-image" src="images/recipes.png" style={{width: "100%"}} alt="recipe-manager" /></a>
-            <div className="w3-container">
-              <p className="w3-center">Recipe manager app with user account functionality that lets you rate and review recipes and filter recipes.
-                User has many recipes and can create new or add an existing recipe and manage their recipes list.</p>
-            </div>
+          <a href="https://www.youtube.com/watch?v=i3Q8Ns4z11o" target="_blank" rel="noreferrer"><img className="project-image" src="images/recipes.png" style={{width: "100%"}} alt="recipe-manager" /></a>
+          <div className="w3-container">
+            <p className="w3-center">Recipe manager app with user account functionality that lets you rate and review recipes and filter recipes.
+            User has many recipes and can create new or add an existing recipe and manage their recipes list.</p>
           </div>
         </div>
 
         <div className="w3-half w3-card-4">
           <a href="https://www.youtube.com/watch?v=0dTVA8qC5XM" target="_blank" rel="noreferrer"><img className="project-image" src="images/mero-wine.png" style={{width: "100%"}} alt="mero-wine-notes" /></a>
           <div className="w3-container">
-            <p className="w3-center">Ruby application built on Sinatra framework. Wine Journal App. Few hightlights of app are
-             .</p>
+            <p className="w3-center">Ruby application built on Sinatra framework. Wine Journal App. Few hightlights of app are.</p>
           </div>
         </div>
       </div>
