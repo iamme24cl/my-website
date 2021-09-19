@@ -51,13 +51,18 @@ const About = () => {
         </div>
         <p className="w3-wide">Backend Programming</p>
         <div className="w3-white">
-          <div className="w3-dark-grey" style={{height:"28px", width:"93%"}}></div>
+          <div className="w3-dark-grey" style={{height:"28px", width:"95%"}}></div>
         </div>
         <p className="w3-wide">Problem Soving</p>
         <div className="w3-white">
           <div className="w3-dark-grey" style={{height:"28px", width:"95%"}}></div>
+        </div>
+        <p className="w3-wide">Work Ethic & Communication Skills</p>
+        <div className="w3-white">
+          <div className="w3-dark-grey" style={{height:"28px", width:"100%"}}></div>
         </div><br/>
-        {/* skill incon badges */}
+        
+        {/* skill icon badges */}
         <div id="badges" style={{fontSize: "60px"}} class="w3-container w3-black">
           <div  className="w3-row">
             <div className="w3-half w3-container">
@@ -86,20 +91,6 @@ const About = () => {
             </div>
           </div>
         </div>
-        
-
-       
-        {/* <!-- Testimonials --> */}
-        {/* <h3 className="w3-padding-24 w3-text-light-grey">My Reputation</h3>  
-
-        <img src="https://randomuser.me/api/portraits/men/85.jpg" alt="Avatar" className="w3-left w3-circle w3-margin-right" style={{width:"80px"}}/>
-        <p><span className="w3-large w3-margin-right">Chris Fox.</span><small>CEO at Mighty Schools.</small></p>
-        <p>Chandra saved us from a web disaster.</p><br/>
-        
-        <img src="https://randomuser.me/api/portraits/women/19.jpg" alt="Avatar" className="w3-left w3-circle w3-margin-right" style={{width:"80px"}}/>
-        <p><span className="w3-large w3-margin-right">Rebecca Flex.</span><small>CEO at Company.</small></p>
-        <p>No one is better than Chandra Lama.</p> */}
-      {/* <!-- End About Section --> */}
     </div>  
   );
 }

@@ -45,7 +45,7 @@ const Contact = () => {
         </a>
           <a href="https://github.com/iamme24cl/" target="_blank" rel="noreferrer"><i className="fa fa-github-square w3-text-white w3-xxlarge w3-hover-opacity"></i></a>
       </div><br />
-      <p className="w3-text-light-grey">Let's get in touch. Send me a message:</p>
+      <p className="w3-text-light-grey">Let's get in touch. Send me a message.</p>
 
       <form id="contact-form" onSubmit={handleSubmit}>
         <p><input value={name} onChange={e => setName(e.target.value)} className="w3-input w3-padding-16" type="text" placeholder="Name" required name="from_name" /></p>
