@@ -39,7 +39,7 @@ const Projects = () => {
         </div>
 
         <div className="w3-half w3-card-4">
-          <a href="https://www.youtube.com/watch?v=0dTVA8qC5XM" target="_blank" rel="noreferrer"><img className="project-image" src="images/mero-wine.png" style={{width: "100%"}} alt="mero-wine-notes" /></a>
+          <a href="https://www.youtube.com/watch?v=0dTVA8qC5XM" target="_blank" rel="noreferrer"><img className="project-image" src="images/mero-winenotes.gif" style={{width: "100%"}} alt="mero-wine-notes" /></a>
           <div className="w3-container">
             <p className="w3-center">Ruby application built on Sinatra framework. This is a wine journal app that lets you take notes on your favorite
               wines and save them to your account. You are also able to view other members wines and see what they are
