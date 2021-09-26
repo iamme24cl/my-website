@@ -18,7 +18,7 @@ const Projects = () => {
         </div>
 
         <div className="w3-half w3-card-4">
-          <a href="https://iamme24cl.github.io/expense-tracker-frontend/" target="_blank" rel="noreferrer"><img className="project-image" src="images/expense-tracker.png" style={{width: "100%"}} alt="expense-tracker" /></a>
+          <a href="https://iamme24cl.github.io/expense-tracker-frontend/" target="_blank" rel="noreferrer"><img className="project-image" src="images/expense-tracker.gif" style={{width: "100%"}} alt="expense-tracker" /></a>
           <div className="w3-container">
             <p className="w3-center">Keep track of your income and expenses! This is a small 
             one page application. The front end is built with vanilla JavaScript and fetches data 
