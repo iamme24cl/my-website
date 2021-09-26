@@ -43,7 +43,7 @@ const Projects = () => {
           <div className="w3-container">
             <p className="w3-center">Ruby application built on Sinatra framework. This is a wine journal app that lets you take notes on your favorite
               wines and save them to your account. You are also able to view other members wines and see what they are
-              drinking and what they think about those wines and leave a review on the wine.
+              drinking.
             </p>
           </div>
         </div>
