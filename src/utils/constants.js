@@ -1,6 +1,6 @@
 export default Object.freeze({
   TOKENS: {
-    SID: 'service_6baok88',
+    SID: 'service_kiia7gh',
     TID: 'contact_form',
     UID: 'user_9MnljMaWugBtmj5FgDHzG'
   }
