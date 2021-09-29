@@ -1,6 +1,5 @@
 import React from 'react';
 import NavBar from './NavBar';
-import Background from './Background';
 import HomePage from './HomePage';
 import About from './About';
 import Projects from './Projects'
@@ -24,11 +23,11 @@ class App extends React.Component {
       <div>
         <NavBar />
         <div id="main">
-          <Background />
           <HomePage />
           <About />
           <Projects />
           <Contact />
+
         </div>
       </div>
     );

@@ -10,7 +10,7 @@ const Projects = () => {
       {/* Grid for projects */}
       <div className="w3-row-padding" style={{margin: "0 -16px"}}>
         <div className="w3-half w3-card-4">
-          <a href="https://my-invoices.netlify.app/" target="_blank" rel="noreferrer"><img className="project-image" src="images/invoices.gif" style={{width: "100%", height: "300px"}} alt="invoices" /></a>
+        <a href="https://my-invoices.netlify.app/" target="_blank" rel="noreferrer"><img className="project-image" src="images/invoices.gif" style={{width: "100%", height: "300px"}} alt="invoices" /></a>
           <div className="w3-container">
             <p className="w3-center">A single page application with React and Redux front end that creates and manages Invoices for an Account. 
               User can also filter their invoices by Client name and Invoice description.</p>
