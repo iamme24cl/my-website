@@ -3,10 +3,10 @@ import "./About.css";
 
 const About = () => {
   return (
-      <div className="w3-content w3-justify w3-text-grey w3-padding-16" id="about">
+      <div className="w3-content w3-justify w3-text-grey" id="about">
         <h2 className="w3-text-light-grey">About Me</h2>
         <hr style={{ width:"200px" }} className="w3-opacity"/>
-        <section className="css-typing w3-text-light-grey">
+        <section className="css-typing w3-text-light-grey w3-padding-16">
           <p>Full Stack Software Developer brought up on JavaScript and Ruby on Rails.</p> 
 
           <p>
@@ -63,7 +63,7 @@ const About = () => {
         </div><br/>
         
         {/* skill icon badges */}
-        <div id="badges" style={{fontSize: "60px"}} class="w3-container w3-black">
+        <div id="badges" style={{fontSize: "60px"}} class="w3-container w3-black w3-padding-16">
           <div  className="w3-row">
             <div className="w3-half w3-container">
               <i class="devicon-ruby-plain-wordmark colored"></i>

@@ -7,6 +7,8 @@ body, h1,h2,h3,h4,h5,h6 {
 body {
   font-size: 18px;
   color: #F0FFFF;
+  /* overflow: hidden;
+  margin: 0; */
 }
 
 /* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
@@ -31,6 +33,10 @@ body {
 
   .project-image-container {
     height: auto;
+  }
+
+  h2, h3 {
+    font-size: 22px!important;
   }
 }
 
