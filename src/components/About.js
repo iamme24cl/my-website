@@ -4,7 +4,7 @@ import "./About.css";
 const About = () => {
   return (
      <div className="w3-content w3-text-light-grey" id="about">
-        <h2 className='w3-center'>About Me</h2>
+      <h2 className='w3-center'>About Me</h2>
         <hr style={{ width:"100%" }} className="w3-opacity"/>
         <section className="w3-text-light-grey">
           <p>

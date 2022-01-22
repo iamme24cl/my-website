@@ -40,23 +40,9 @@
 	}
 }
 
-<<<<<<< HEAD
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .main-header {
     font-size: 30px!important;
-=======
-#home {
-  padding-top: 32px!important;
-}
-
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-  #greeting {
-    font-size: 20px!important;
-  }
-  #home p {
-    font-size: 16px!important;
->>>>>>> e095e5aa2ad65f000e91cc360c36fde823657101
   }
 }
