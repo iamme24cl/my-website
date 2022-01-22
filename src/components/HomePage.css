@@ -19,9 +19,7 @@
   100% { transform: rotate( 0.0deg) }
 }
 
-img.w3-image.my-image:hover {
-  transform: scaleX(-1);
-}
+
 
 .w3-image.my-image {
   margin-top: 25px;
@@ -40,4 +38,11 @@ img.w3-image.my-image:hover {
 	100% {
 		transform: translatey(0px);
 	}
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .main-header {
+    font-size: 30px!important;
+  }
 }

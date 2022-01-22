@@ -8,16 +8,6 @@ import './App.css'
 
 class App extends React.Component {
   
-  componentDidMount() {
-    setTimeout(() => {
-      window.scrollTo({
-        top: 500,
-        left: 0,
-        behavior: 'smooth'
-      });
-    }, 3000)
-  }
-
   render () {
     return (
       <div>
