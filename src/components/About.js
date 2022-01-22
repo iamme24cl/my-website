@@ -3,7 +3,7 @@ import "./About.css";
 
 const About = () => {
   return (
-      <div className="w3-content w3-text-light-grey" id="about">
+     <div className="w3-content w3-text-light-grey" id="about">
         <h2 className='w3-center'>About Me</h2>
         <hr style={{ width:"100%" }} className="w3-opacity"/>
         <section className="w3-text-light-grey">
@@ -21,8 +21,7 @@ const About = () => {
             exploring new ideas & solutions, and sincerely dedicating myself to bringing the idea to life.
           </p>
         </section>
-        <hr style={{width: "100%"}} className="w3-opacity"/>
-    </div>  
+    </div>
   );
 }
 
