@@ -2,10 +2,6 @@
   margin-bottom: 12px;
 }
 
-.project-header {
-  text-decoration: underline;
-}
-
 img.project-image:hover {
   -webkit-transition: all .3s ease-out;
   -moz-transition: all .3s ease-out;
