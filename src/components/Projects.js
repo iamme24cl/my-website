@@ -59,7 +59,7 @@ const Projects = () => {
           <a href="https://github.com/iamme24cl/three-fashion" target="_blank" rel="noreferrer"><img className="project-image" src="images/three-fashion-home.png" style={{width: "100%", height: "300px"}} alt="three-fashion store" /></a>
           <div className="w3-container">
             <p className="w3-center">
-              E-commerce Shopify Fashion store with fully customized and interactive theme 
+              E-commerce Shopify Fashion store with fully customized and interactive store theme 
             </p>
           </div>
         </div>
