@@ -20,25 +20,23 @@ const Projects = () => {
         </div>
 
         <div className="w3-half w3-card-4">
+          <h3 className='w3-center project-header'>Dynamic Job Search Site</h3>
+          <a href="https://remoteokjobs.netlify.app/" target="_blank" rel="noreferrer"><img className="project-image" src="images/job-board.png" style={{width: "100%", height: "300px"}} alt="job search site" /></a>
+          <div className="w3-container">
+            <p className="w3-center">
+              This React app fetches remote jobs from an api. You can search for jobs and apply various filters to your search.
+            </p>
+          </div>
+        </div>     
+      </div>
+
+      <div className="w3-row-padding" style={{margin: "0 -16px"}}>
+        <div className="w3-half w3-card-4">
           <h3 className='w3-center project-header'>Customer Relationship Manager</h3>
           <a href="https://rails-react-crm.netlify.app/" target="_blank" rel="noreferrer"><img className="project-image" src="images/crm.jpg" style={{width: "100%", height: "300px"}} alt="customer realtionship manager" /></a>
           <div className="w3-container">
             <p className="w3-center">
               Gracefully manage Prospects and Sale flow with this Full Stack Customer Relationship Management application. 
-            </p>
-          </div>
-        </div>
-
-       
-      </div>
-
-      <div className="w3-row-padding" style={{margin: "0 -16px"}}>
-        <div className="w3-half w3-card-4">
-          <h3 className='w3-center project-header'>Chat Application</h3>
-          <a href="https://github.com/iamme24cl/messenger-6483" target="_blank" rel="noreferrer"><img className="project-image" src="images/chat.png" style={{width: "100%", height: "300px"}} alt="chat application" /></a>
-          <div className="w3-container">
-            <p className="w3-center">
-              Live chat application with friends list and real-time notification features. 
             </p>
           </div>
         </div>
@@ -60,6 +58,16 @@ const Projects = () => {
           <div className="w3-container">
             <p className="w3-center">
               E-commerce Shopify Fashion store with fully customized and interactive store theme 
+            </p>
+          </div>
+        </div>
+
+        <div className="w3-half w3-card-4">
+          <h3 className='w3-center project-header'>Chat Application</h3>
+          <a href="https://github.com/iamme24cl/messenger-6483" target="_blank" rel="noreferrer"><img className="project-image" src="images/chat.png" style={{width: "100%", height: "300px"}} alt="chat application" /></a>
+          <div className="w3-container">
+            <p className="w3-center">
+              Live chat application with friends list and real-time notification features. 
             </p>
           </div>
         </div>
