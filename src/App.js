@@ -1,10 +1,11 @@
 import React from 'react';
-import NavBar from './NavBar';
-import HomePage from './HomePage';
-import About from './About';
-import Projects from './Projects'
-import Contact from './Contact'
-import './App.css'
+import NavBar from './components/NavBar';
+import HomePage from './components/HomePage';
+import About from './components/About';
+import Projects from './components/Projects';
+import Blogs from './components/Blogs';
+import Contact from './components/Contact';
+import './App.css';
 
 class App extends React.Component {
   
@@ -16,8 +17,8 @@ class App extends React.Component {
           <HomePage />
           <About />
           <Projects />
+          <Blogs />
           <Contact />
-
         </div>
       </div>
     );

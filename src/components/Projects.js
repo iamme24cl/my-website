@@ -36,7 +36,7 @@ const Projects = () => {
           <a href="https://rails-react-crm.netlify.app/" target="_blank" rel="noreferrer"><img className="project-image" src="images/crm.jpg" style={{width: "100%", height: "300px"}} alt="customer realtionship manager" /></a>
           <div className="w3-container">
             <p className="w3-center">
-              Gracefully manage Prospects and Sale flow with this Full Stack Customer Relationship Management application. 
+              Gracefully manage Prospects and Sales flow with this Full Stack Customer Relationship Management application. 
             </p>
           </div>
         </div>
@@ -46,7 +46,7 @@ const Projects = () => {
           <a href="https://codesandbox.io/s/react-typescript-todo-list-ejheu" target="_blank" rel="noreferrer"><img className="project-image" src="images/todos.png" style={{width: "100%", height: "300px"}} alt="todo app" /></a>
           <div className="w3-container">
             <p className="w3-center">
-              A simple React & TypeScript todo app that fetches todos from and persists todos to a Ruby on Rails backend.</p>
+              A simple React & TypeScript todo app that fetches todos from and persists todos to a Ruby on Rails api.</p>
           </div>
         </div>
       </div>
@@ -57,7 +57,7 @@ const Projects = () => {
           <a href="https://github.com/iamme24cl/three-fashion" target="_blank" rel="noreferrer"><img className="project-image" src="images/three-fashion-home.png" style={{width: "100%", height: "300px"}} alt="three-fashion store" /></a>
           <div className="w3-container">
             <p className="w3-center">
-              E-commerce Shopify Fashion store with fully customized and interactive store theme 
+              E-commerce Shopify Fashion store with fully customized and interactive store theme.
             </p>
           </div>
         </div>

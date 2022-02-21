@@ -10,6 +10,9 @@ body {
   /* overflow: hidden;
   margin: 0; */
 }
+ a {
+   text-decoration: none;
+ }
 
 /* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
 #main {
