@@ -1,7 +1,7 @@
 const Blogs = (props) => {
   return (
     <div id="blogs" className="w3-padding-16 w3-content" >
-      <h2 className="w3-text-light-grey w3-center">Here are some of my writing for you.</h2>
+      <h2 className="w3-text-light-grey w3-center">Here are some of my writings for you.</h2>
       <hr style={{width: "100%"}} className="w3-opacity"/>
 
       <div className="w3-row-padding" style={{margin: "0 -16px"}}>

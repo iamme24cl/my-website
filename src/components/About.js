@@ -8,7 +8,7 @@ const About = () => {
         <hr style={{ width:"100%" }} className="w3-opacity"/>
         <section className="w3-text-light-grey">
           <p>
-            Full Stack Web Developer brought up on JavaScript and Ruby on Rails.
+            Full Stack Sofware Developer brought up on JavaScript and Ruby.
             Background in Food and Wine Industry with strong interpersonal skills and rigorous positivity.
           </p>
           <p>
