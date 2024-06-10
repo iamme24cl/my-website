@@ -8,18 +8,10 @@ const About = () => {
         <hr style={{ width:"100%" }} className="w3-opacity"/>
         <section className="w3-text-light-grey">
           <p>
-            Full Stack Sofware Developer brought up on JavaScript and Ruby.
-            Background in Food and Wine Industry with strong interpersonal skills and rigorous positivity.
+          Detail-oriented and highly motivated full stack software developer. Proficient in Python for rapid implementation and iteration, 
+          experienced in React for building interactive front-ends, and skilled in web programming. 
           </p>
-          <p>
-            Excellent at analyzing and assessing customer needs and delivering products and services clients love. 
-            I am a passionate problem solver and a big believer of positive company culture, inclusive kindness and
-            innovative thinking.
-          </p>
-          <p>
-            I take great pleasure in learning new technologies, debugging errors,
-            exploring new ideas & solutions, and sincerely dedicating myself to bringing the idea to life.
-          </p>
+          <p>Adept at backend system design and implementation with a passion for continuous learning and skill expansion.</p>
         </section>
     </div>
   );
