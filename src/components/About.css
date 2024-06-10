@@ -1,4 +1,3 @@
-
 #badges i {
   margin: 15px;
 }
@@ -6,6 +5,9 @@
 @media screen and (max-width: 600px) {
   #badges i {
     margin-left: 0;
+  }
+  .about-container {
+    text-align: center;
   }
 }
 
