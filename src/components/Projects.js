@@ -47,7 +47,7 @@ const Projects = () => {
       <div className="w3-row-padding" style={{margin: "0 -16px"}}>
         <div className="w3-half w3-card-4">
           <h3 className='w3-center project-header'>Invoice Manager</h3>
-          <a href="https://my-invoices.netlify.app/" target="_blank" rel="noreferrer">
+          <a href="https://github.com/iamme24cl/invoices-backend" target="_blank" rel="noreferrer">
             <img className="project-image" src="images/invoices.jpg" style={{width: "100%", height: "300px"}} alt="invoice manager" />
           </a>
           <div className="w3-container">
