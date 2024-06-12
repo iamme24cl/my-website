@@ -28,7 +28,7 @@ const Projects = () => {
 
         <div className="w3-half w3-card-4">
           <h3 className='w3-center project-header'>sMedia</h3>
-          <a href="https://d311286a.smedia-app.pages.dev/" target="_blank" rel="noreferrer">
+          <a href="https://smedia-app.pages.dev/" target="_blank" rel="noreferrer">
             <img className="project-image" src="images/smedia.jpg" style={{width: "100%", height: "300px"}} alt="social media site" />
           </a>
           <div className="w3-container">
