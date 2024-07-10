@@ -10,6 +10,42 @@ const Projects = () => {
       {/* Grid for projects */}
       <div className="w3-row-padding" style={{margin: "0 -16px"}}>
         <div className="w3-half w3-card-4">
+          <h3 className='w3-center project-header'>Portfolio</h3>
+          <a href="https://portfolio-3fk.pages.dev/" target="_blank" rel="noreferrer">
+            <img className="project-image" src="images/portfolio.jpg" style={{width: "100%", height: "300px"}} alt="movie land" />
+          </a>
+          <div className="w3-container">
+            <p className="w3-center">
+              An animated portfolio website created using React and Framer Motion.
+            </p>
+            <p className="w3-center">
+              <a href="https://github.com/iamme24cl/portfolio" target="_blank" rel="noreferrer" className="github-link">
+                <i className="fab fa-github"></i> GitHub Repository
+              </a>
+            </p>
+          </div>
+        </div>
+
+        <div className="w3-half w3-card-4">
+          <h3 className='w3-center project-header'>Chat App</h3>
+          <a href="https://chatapp-b7p.pages.dev/" target="_blank" rel="noreferrer">
+            <img className="project-image" src="images/chat-app.jpg" style={{width: "100%", height: "300px"}} alt="social media site" />
+          </a>
+          <div className="w3-container">
+            <p className="w3-center">
+              A chat application with real time notification features created using React and Google Firebase.
+            </p>
+            <p className="w3-center">
+              <a href="https://github.com/iamme24cl/chatapp" target="_blank" rel="noreferrer" className="github-link">
+                <i className="fab fa-github"></i> GitHub Repository
+              </a>
+            </p>
+          </div>
+        </div>     
+      </div>
+
+      <div className="w3-row-padding" style={{margin: "0 -16px"}}>
+        <div className="w3-half w3-card-4">
           <h3 className='w3-center project-header'>MovieLand</h3>
           <a href="https://movie-land-app.pages.dev/" target="_blank" rel="noreferrer">
             <img className="project-image" src="images/movieland.jpg" style={{width: "100%", height: "300px"}} alt="movie land" />
@@ -69,33 +105,6 @@ const Projects = () => {
           </div>
         </div>     
       </div>
-
-      <div className="w3-row-padding" style={{margin: "0 -16px"}}>
-        <div className="w3-half w3-card-4">
-          <h3 className='w3-center project-header'>E-Commerce Fashion Store</h3>
-          <a href="https://github.com/iamme24cl/three-fashion" target="_blank" rel="noreferrer">
-            <img className="project-image" src="images/three-fashion-home.png" style={{width: "100%", height: "300px"}} alt="three-fashion store" />
-          </a>
-          <div className="w3-container">
-            <p className="w3-center">
-              E-commerce Shopify Fashion store with fully customized and interactive store theme.
-            </p>
-          </div>
-        </div>
-
-        <div className="w3-half w3-card-4">
-          <h3 className='w3-center project-header'>Chat Application</h3>
-          <a href="https://github.com/iamme24cl/messenger-6483" target="_blank" rel="noreferrer">
-            <img className="project-image" src="images/chat.png" style={{width: "100%", height: "300px"}} alt="chat application" />
-          </a>
-          <div className="w3-container">
-            <p className="w3-center">
-              Live chat application with friends list and real-time notification features. 
-            </p>
-          </div>
-        </div>
-      </div>
-
       <hr style={{width: "100%"}} className="w3-opacity"/>
     </div>
   )
