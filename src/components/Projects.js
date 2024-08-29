@@ -52,7 +52,8 @@ const Projects = () => {
           </a>
           <div className="w3-container">
             <p className="w3-center">
-              A movie recommendation application that recommends movies based on user's movie ratings, filters movies by name and categories.
+            A personalized recommendation system built with Python, FastAPI, and React. It suggests movies based on user ratings and preferences, 
+            using machine learning algorithms and offers a sleek, user-friendly interface for browsing and discovering new films.
             </p>
             <p className="w3-center">
               <a href="https://github.com/yourusername/movie-recommender-app" target="_blank" rel="noreferrer" className="github-link">
@@ -69,7 +70,8 @@ const Projects = () => {
           </a>
           <div className="w3-container">
             <p className="w3-center">
-              A social media platform enabling users to post updates, comment on each other's posts, message other users in real-time.
+              A dynamic platform built with Python and Flask, paired with React for the frontend. It enables users to connect, share, and interact seamlessly in a modern, 
+              intuitive interface.
             </p>
             <p className="w3-center">
               <a href="https://github.com/iamme24cl/smedia-app" target="_blank" rel="noreferrer" className="github-link">
